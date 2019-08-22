@@ -35,12 +35,41 @@
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/pricing/">
 
-    <!-- Bootstrap core CSS -->
+      <!-- Bootstrap core CSS -->
     <link rel="stylesheet" type="text/css" href="css/Bootstrap.min.css">
 
     <!-- LOGO AS -->
     <link rel="icon" href="img/logo.png">
     <style>
+
+
+    .footer {
+  width:100%;
+  margin-top:80px;
+  background-color: rgb(66,181,73);
+  float:left;
+  border-radius:30px 30px 0px 0px;
+  bottom: 10px;
+
+}
+
+.footer p {
+  color:#fff;
+  text-align:center;
+  float:center;
+  margin: 15px;
+}
+
+.footer a{
+  text-decoration:none;
+  color:#fff;
+}
+
+.footer a:hover{
+  color:#1565c0;
+  font-size:12pt;
+}
+
       .user{
         width: 150px;
         height: 150px;
@@ -69,6 +98,7 @@
         background: green;
         text-decoration: none;
         line-height: 100%;
+        border-radius: 20px 20px 20px 20px;
       }
     </style>
     <!-- Custom styles for this template -->
@@ -78,7 +108,7 @@
     <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 navbar-light border-bottom shadow-sm" style="background-color: rgb(66,181,73);">
         <h5 class="my-0 mr-md-auto font-weight-normal text-light" style="font-family: forte; font-size: 32px; margin: 40px;">Kelompok 7</h5>
         <nav class="my-2 my-md-0 mr-md-3">
-           <a class="p-2 text-light" href="#">Tugas pertama</a>
+           <a class="p-2 text-light" href="tugas_pertama.php">Tugas pertama</a>
            <a class="p-2 text-light" href="#">Tugas kedua</a>
            <a class="p-2 text-light" href="#">Tugas ketiga</a>
            <a class="p-2 text-light" href="#">Tugas keempat</a>
@@ -155,41 +185,14 @@
   <div class="pricing-header px-2 py-2 pt-md-2 pb-md-2 mx-auto text-center">
     <p class="lead">Rata-rata tinggi kami = <?php echo $rata_rata ?> cm</p>
   </div>
-s
-  <footer class="pt-4 my-md-5 pt-md-5 border-top">
-    <div class="row">
-      <div class="col-12 col-md">
-        <small class="d-block mb-3 text-muted">&copy; 2017-2019</small>
-        <p class="lead">#PWPB_2</p>
-      </div>
-      <div class="col-6 col-md">
-        <h5>Features</h5>
-        <ul class="list-unstyled text-small">
-          <li><a class="text-muted" href="#">Cool stuff</a></li>
-          <li><a class="text-muted" href="#">Random feature</a></li>
-          <li><a class="text-muted" href="#">Team feature</a></li>
-          <li><a class="text-muted" href="#">Stuff for developers</a></li>
-          <li><a class="text-muted" href="#">Another one</a></li>
-          <li><a class="text-muted" href="#">Last time</a></li>
-        </ul>
-      </div>
-      <div class="col-6 col-md">
-        <h5>Resources</h5>
-        <ul class="list-unstyled text-small">
-          <li><a class="text-muted" href="#">Resource</a></li>
-          <li><a class="text-muted" href="#">Resource name</a></li>
-          <li><a class="text-muted" href="#">Another resource</a></li>
-          <li><a class="text-muted" href="#">Final resource</a></li>
-        </ul>
-      </div>
-      <div class="col-6 col-md">
-        <h5>About</h5>
-        <ul class="list-unstyled text-small">
-          <li><a class="text-muted" href="#">Team</a></li>
-          <li><a class="text-muted" href="#">Locations</a></li>
-          <li><a class="text-muted" href="#">Privacy</a></li>
-          <li><a class="text-muted" href="#">Terms</a></li>
-        </ul>
+
+ <div class="footer">
+      <p>
+        Copyright &copy; 2019 <a href="index.php">PWPB || Kelompok 7</a>
+      </p>
+    </div>
+
+        
       </div>
     </div>
   </footer>

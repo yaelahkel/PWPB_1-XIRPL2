@@ -13,26 +13,55 @@
 <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <style>
+    .footer {
+  width:100%  ;
+  margin-top:80px;
+  background-color: rgb(66,181,73);
+  float:left;
+  border-radius:30px 30px 0px 0px;
+    bottom: 10px;
+
+}
+
+.footer p {
+  color:#fff;
+  text-align:center;
+  float:center;
+  margin: 15px;
+}
+
+.footer a{
+  text-decoration:none;
+  color:#fff;
+}
+
+.footer a:hover{
+  color:#1565c0;
+  font-size:12pt;
+  }
     
-      nav a:hover{
+  nav a:hover{
         background: green;
         text-decoration: none;
+        line-height: 100%;
+        border-radius: 20px 20px 20px 20px;
       }
+      
     </style>
     <!-- Custom styles for this template -->
     <link href="pricing.css" rel="stylesheet">
   </head>
   <body>
     <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 navbar-light border-bottom shadow-sm" style="background-color: rgb(66,181,73);">
-  <h5 class="my-0 mr-md-auto font-weight-normal text-light" style="font-family: forte; font-size: 32px; margin-left: 40px;">Kelompok 7</h5>
-  <nav class="my-2 my-md-0 mr-md-3">
-    <a class="p-2 text-light" href="tugas_pertama.php">Tugas pertama</a>
-    <a class="p-2 text-light" href="#">Tugas kedua</a>
-    <a class="p-2 text-light" href="#">Tugas ketiga</a>
-    <a class="p-2 text-light" href="#">Tugas keempat</a>
-  </nav>
-  <a class="btn btn-outline-light" href="index.php">Beranda</a>
-</div>
+        <h5 class="my-0 mr-md-auto font-weight-normal text-light" style="font-family: forte; font-size: 32px; margin: 40px;">Kelompok 7</h5>
+        <nav class="my-2 my-md-0 mr-md-3">
+           <a class="p-2 text-light" href="tugas_pertama.php">Tugas pertama</a>
+           <a class="p-2 text-light" href="#">Tugas kedua</a>
+           <a class="p-2 text-light" href="#">Tugas ketiga</a>
+           <a class="p-2 text-light" href="#">Tugas keempat</a>
+        </nav>
+            <a class="btn btn-outline-light" href="index.php">Home</a>
+    </div>
 
 <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
   <p class="display-4" style="font-family: forte;">PWPB</p>
@@ -54,6 +83,9 @@ Browser adalah sebuah program aplikasi atau software yang me-request dokumen-dok
 
   <img src="img/codingan.jpg" width=" 60%" height="300px"><br><br><br>
 
+
+
+ 
 </div>
 
 <div class="container">
@@ -61,42 +93,13 @@ Browser adalah sebuah program aplikasi atau software yang me-request dokumen-dok
      
    
   </div>
-
-  <footer class="pt-4 my-md-5 pt-md-5 border-top">
-    <div class="row">
-      <div class="col-12 col-md">
-        <img class="mb-2" src="/docs/4.3/assets/brand/bootstrap-solid.svg" alt="" width="24" height="24">
-        <small class="d-block mb-3 text-muted">&copy; 2019</small>
-        <p class="lead">#PWPB_XIRPL2</p>
-      </div>
-      <div class="col-6 col-md">
-        <h5>Features</h5>
-        <ul class="list-unstyled text-small">
-          <li><a class="text-muted" href="#">Cool stuff</a></li>
-          <li><a class="text-muted" href="#">Random feature</a></li>
-          <li><a class="text-muted" href="#">Team feature</a></li>
-          <li><a class="text-muted" href="#">Stuff for developers</a></li>
-          <li><a class="text-muted" href="#">Another one</a></li>
-          <li><a class="text-muted" href="#">Last time</a></li>
-        </ul>
-      </div>
-      <div class="col-6 col-md">
-        <h5>Resources</h5>
-        <ul class="list-unstyled text-small">
-          <li><a class="text-muted" href="#">Resource</a></li>
-          <li><a class="text-muted" href="#">Resource name</a></li>
-          <li><a class="text-muted" href="#">Another resource</a></li>
-          <li><a class="text-muted" href="#">Final resource</a></li>
-        </ul>
-      </div>
-      <div class="col-6 col-md">
-        <h5>About</h5>
-        <ul class="list-unstyled text-small">
-          <li><a class="text-muted" href="#">Team</a></li>
-          <li><a class="text-muted" href="#">Locations</a></li>
-          <li><a class="text-muted" href="#">Privacy</a></li>
-          <li><a class="text-muted" href="#">Terms</a></li>
-        </ul>
+<div class="footer">
+      <p>
+        Copyright &copy; 2019 <a href="index.php">PWPB || Kelompok 7  </a> 
+      </p>
+    </div>
+        
+     
       </div>
     </div>
   </footer>
