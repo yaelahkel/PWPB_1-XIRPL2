@@ -1,23 +1,27 @@
 <?php 
-  $nama_Damar = "Haikal Damar";
-  $umur_Damar = 16;
-  $hobi_Damar = "Bermusik, Nonton Youtube, gaming";
-  $tinggi_Damar = 169;
-  $cita2_Damar = "programer handal , Musisi";
+  $balok = "Balok";
+  $luas_balok  = "L=2 x(p.l+p.t+l.t)";
+  $volume_balok= "V= p x l x t";
   
-  $nama_Fera = "Fera Dwi Lestari";
-  $umur_Fera = 16;
-  $hobi_Fera = "Baca novel ,masak";
-  $tinggi_Fera = 162;
-  $cita2_Fera = "Designer , Chef";
+  $kerucut= "Kerucut";
+  $Luas_kerucut  = "π·r2 + π·r·s" ;
+  $volume_kerucut= "1/3 x Luas Alas x Tinggi ";
 
-  $nama_Lusi = "Lusiana Amanah";
-  $umur_Lusi = 16;
-  $hobi_Lusi = "Denger Musik, Baca Novel";
-  $tinggi_Lusi = 160;
-  $cita2_Lusi = "Penulis , Penerbit buku";
+  $kubus= "Kubus";
+  $Luas_kubus   = "6 x s²" ;
+  $volume_kubus = "s x s x s ";
 
-  $rata_rata = ($tinggi_Damar + $tinggi_Fera + $tinggi_Lusi) / 3;
+  $limas= "Limas Segiempat";
+  $Luas_limas   = "½ × a × t" ;
+  $volume_limas = "1/3 × luas alas × tinggi ";
+
+  $Prisma= "Prisma";
+  $Luas_prisma= " 2 x Luas Alas + Luas Selimut" ;
+  $volume_prisma = "V= ½ x panjang x lebar x tinggi";
+
+  $tabung= "tabung";
+  $Luas_tabung = "La = π × r × r" ;
+  $volume_tabung= "V = π × r × r × t ";
 
 ?>
 
@@ -117,8 +121,8 @@
     </div>
 
 <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-  <h1 class="display-4" style="font-family: forte;">Profile</h1>
-  <p class="lead">dibawah ini adalah biodata anggota Kelompok 7</p>
+  <h1 class="display-4" style="font-family: forte;">Bangun Ruang</h1>
+  <p class="lead">dibawah ini adalah kumpulan bangun ruang beserta rumus nya</p>
 </div>
 
 <div class="container">
@@ -127,14 +131,12 @@
       <div class="card mb-4 shadow-sm">
           <div class="card-body">
             <!-- GAMBAR LO -->
-            <img class="user" src="img/Damar.png">
+            <img class="user" src="img/gif/balok.gif">
             <ul class="list-unstyled mt-3 mb-4">
               <div class="tentang_user">
-                <span>Haikal Damar</span> <p>
-                 <h6>umur : <?= $umur_Damar ?> tahun <br>
-                     hobi : <?= $hobi_Damar ?><br>
-                     Cita cita : <?= $cita2_Damar ?>
-                     Tinggi badan : <?= $tinggi_Damar ?> cm</h6></p>
+                <span><?= $balok ?></span> <p>
+                 <h6>Luas   : <?= $luas_balok ?>  <br><br>
+                     Volume : <?= $volume_balok ?><br><br><br><br>
               </div>
             </ul>
             <button type="button" class="btn btn-lg btn-block btn-outline-primary">Lebih lanjut</button>
@@ -146,14 +148,12 @@
       <div class="card mb-4 shadow-sm">
           <div class="card-body">
             <!-- GAMBAR LO -->
-            <img class="user" src="img/Fera.jpg">
+            <img class="user" src="img/gif/kerucut.gif">
             <ul class="list-unstyled mt-3 mb-4">
               <div class="tentang_user">
-               <span>Fera Dwi Lestari</span> <p>
-                 <h6>umur : <?= $umur_Fera ?> tahun <br>
-                     hobi : <?= $hobi_Fera ?><br>
-                     Cita cita : <?= $cita2_Fera ?><br>
-                     Tinggi badan : <?= $tinggi_Fera ?> cm</h6></p>
+               <span><?=$kerucut ?></span> <p>
+                 <h6>Luas : <?= $Luas_kerucut ?><br><br>
+                     Volume : <?= $volume_kerucut ?><br><br><br></br>
               </div>
             </ul>
             <button type="button" class="btn btn-lg btn-block btn-outline-primary">Lebih lanjut</button>
@@ -165,27 +165,75 @@
       <div class="card mb-4 shadow-sm">
           <div class="card-body">
             <!-- GAMBAR LO -->
-            <img class="user" src="img/Lusi.jpg">
+            <img class="user" src="img/gif/kubus.gif">
             <ul class="list-unstyled mt-3 mb-4">
               <!-- TENTANG USER -->
               <div class="tentang_user">
-                <span>Lusiana Amanah</span> <p>
-                  <h6>umur : <?= $umur_Lusi ?> tahun <br>
-                      hobi : <?= $hobi_Lusi ?><br>
-                      Cita cita : <?= $cita2_Lusi ?><br>
-                      Tinggi badan : <?= $tinggi_Lusi ?> cm</h6></p>
+                <span><?=$kubus ?></span> <p>
+                  <h6>Luas : <?= $Luas_kubus ?>  <br><br>
+                      Volume : <?= $volume_kubus?><br><br><br><br>
               </div>
+              </ul>
+            <button type="button" class="btn btn-lg btn-block btn-outline-primary">Lebih lanjut</button>
+          </div>
+      </div>
+
+      </div>
+      <div class="container">
+      <div class="card-deck mb-3 text-center">
+
+
+         <div class="card mb-4 shadow-sm">
+          <div class="card-body">
+            <!-- GAMBAR LO -->
+            <img class="user" src="img/gif/Limas.gif">
+            <ul class="list-unstyled mt-3 mb-4">
+              <!-- TENTANG USER -->
+              <div class="tentang_user">
+                <span><?=$limas ?></span> <p>
+                  <h6>Luas : <?= $Luas_limas ?><br><br>
+                      Volume : <?= $volume_limas ?><br><br><br><br>
+              </div>      
               <!-- END OF TENTANG USER -->
             </ul>
             <button type="button" class="btn btn-lg btn-block btn-outline-primary">Lebih lanjut</button>
           </div>
       </div>
     <!-- END PROFILE 3 -->
-  </div>
-  <div class="pricing-header px-2 py-2 pt-md-2 pb-md-2 mx-auto text-center">
-    <p class="lead">Rata-rata tinggi kami = <?php echo $rata_rata ?> cm</p>
-  </div>
+    <div class="card mb-4 shadow-sm">
+          <div class="card-body">
+            <!-- GAMBAR LO -->
+            <img class="user" src="img/gif/prisma.gif">
+            <ul class="list-unstyled mt-3 mb-4">
+              <!-- TENTANG USER -->
+              <div class="tentang_user">
+                <span><?= $Prisma ?></span> <p>
+                  <h6>Luas : <?= $Luas_prisma ?><br><br>
+                      Volume : <?= $volume_prisma ?><br><br><br><br>
+              </div>      
+              <!-- END OF TENTANG USER -->
+            </ul>
+            <button type="button" class="btn btn-lg btn-block btn-outline-primary">Lebih lanjut</button>
+          </div>
+      </div>
 
+      <div class="card mb-4 shadow-sm">
+          <div class="card-body">
+            <!-- GAMBAR LO -->
+            <img class="user" src="img/gif/Tabung.gif">
+            <ul class="list-unstyled mt-3 mb-4">
+              <!-- TENTANG USER -->
+              <div class="tentang_user">
+                <span><?= $tabung ?></span> <p>
+                  <h6>Luas : <?= $Luas_tabung ?><br><br>
+                      Volume : <?= $volume_tabung ?><br><br><br><br>
+              </div>      
+              <!-- END OF TENTANG USER -->
+            </ul>
+            <button type="button" class="btn btn-lg btn-block btn-outline-primary">Lebih lanjut</button>
+          </div>
+      </div>
+  </div>
  <div class="footer">
       <p>
         Copyright &copy; 2019 <a href="index.php">PWPB || Kelompok 7</a>
