@@ -2,26 +2,32 @@
   $balok = "Balok";
   $luas_balok  = "L=2 x(p.l+p.t+l.t)";
   $volume_balok= "V= p x l x t";
+  $gambar_1 ="img/gif/balok.gif";
   
   $kerucut= "Kerucut";
   $Luas_kerucut  = "π·r2 + π·r·s" ;
   $volume_kerucut= "1/3 x Luas Alas x Tinggi ";
+  $gambar_2="img/gif/kerucut.gif";
 
   $kubus= "Kubus";
   $Luas_kubus   = "6 x s²" ;
   $volume_kubus = "s x s x s ";
+  $gambar_3="img/gif/kubus.gif";
 
   $limas= "Limas Segiempat";
   $Luas_limas   = "½ × a × t" ;
   $volume_limas = "1/3 × luas alas × tinggi ";
+  $gambar_4="img/gif/Limas.gif";
 
   $Prisma= "Prisma";
   $Luas_prisma= " 2 x Luas Alas + Luas Selimut" ;
   $volume_prisma = "V= ½ x panjang x lebar x tinggi";
+  $gambar_5="img/gif/prisma.gif";
 
   $tabung= "tabung";
   $Luas_tabung = "La = π × r × r" ;
   $volume_tabung= "V = π × r × r × t ";
+  $gambar_6="img/gif/Tabung.gif";
 
 ?>
 
@@ -131,7 +137,7 @@
       <div class="card mb-4 shadow-sm">
           <div class="card-body">
             <!-- GAMBAR LO -->
-            <img class="user" src="img/gif/balok.gif">
+            <img class="user" src=" <?= $gambar_1 ?>">
             <ul class="list-unstyled mt-3 mb-4">
               <div class="tentang_user">
                 <span><?= $balok ?></span> <p>
@@ -148,7 +154,7 @@
       <div class="card mb-4 shadow-sm">
           <div class="card-body">
             <!-- GAMBAR LO -->
-            <img class="user" src="img/gif/kerucut.gif">
+            <img class="user" src="<?= $gambar_2 ?>">
             <ul class="list-unstyled mt-3 mb-4">
               <div class="tentang_user">
                <span><?=$kerucut ?></span> <p>
@@ -165,7 +171,7 @@
       <div class="card mb-4 shadow-sm">
           <div class="card-body">
             <!-- GAMBAR LO -->
-            <img class="user" src="img/gif/kubus.gif">
+            <img class="user" src="<?= $gambar_3 ?>">
             <ul class="list-unstyled mt-3 mb-4">
               <!-- TENTANG USER -->
               <div class="tentang_user">
@@ -186,7 +192,7 @@
          <div class="card mb-4 shadow-sm">
           <div class="card-body">
             <!-- GAMBAR LO -->
-            <img class="user" src="img/gif/Limas.gif">
+            <img class="user" src="<?= $gambar_4 ?>">
             <ul class="list-unstyled mt-3 mb-4">
               <!-- TENTANG USER -->
               <div class="tentang_user">
@@ -203,7 +209,7 @@
     <div class="card mb-4 shadow-sm">
           <div class="card-body">
             <!-- GAMBAR LO -->
-            <img class="user" src="img/gif/prisma.gif">
+            <img class="user" src="<?= $gambar_5 ?>">
             <ul class="list-unstyled mt-3 mb-4">
               <!-- TENTANG USER -->
               <div class="tentang_user">
@@ -220,7 +226,7 @@
       <div class="card mb-4 shadow-sm">
           <div class="card-body">
             <!-- GAMBAR LO -->
-            <img class="user" src="img/gif/Tabung.gif">
+            <img class="user" src="<?= $gambar_6 ?>">
             <ul class="list-unstyled mt-3 mb-4">
               <!-- TENTANG USER -->
               <div class="tentang_user">

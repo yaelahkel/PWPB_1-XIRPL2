@@ -75,13 +75,13 @@ World Wide Web adalah layanan internet yang paling populer saat ini. Internet mu
 
 Halaman Web merupakan file teks murni (plain text) yang berisi sintaks-sintaks HTML yang dapat dibuka/dilihat/diterjemahkan dengan Internet Browser ketika Sintaks HTML mampu memuat konten text, gambar, audio, video, dan animasi. <br><br>
 
-  <img src="img/bahasa.jpg" width=" 60%" height="300px"><br><br><br>
+  <img src="img/bahasa.jpg" width=" 70%" height="450px"><br><br><br>
 
   <h4>II. Internet & Web Browser</h4>
 
 Browser adalah sebuah program aplikasi atau software yang me-request dokumen-dokumen dari komputer-komputer yang terkoneksi internet (server) di seluruh dunia, dan menampilkan informasi dari dokumen tersebut pada window browser. Browser menampilkan sesuai instruksi (format) HTML yang dibuat pada dokumen tersebut. <br><br>
 
-  <img src="img/codingan.jpg" width=" 60%" height="300px"><br><br><br>
+  <img src="img/codingan.jpg" width=" 70%" height="450px"><br><br><br>
 
 
 
